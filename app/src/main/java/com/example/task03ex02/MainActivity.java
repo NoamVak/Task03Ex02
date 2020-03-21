@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
     public void Go(View view) {
         num1=rnd.nextInt(100)+1;
         num2=rnd.nextInt(100)+1;
-        tvNum1.setText(num2+" ");
-        tvNum2.setText(num1+" ");
+        tvNum1.setText(num1+" ");
+        tvNum2.setText(num2+" ");
 
     }
 
